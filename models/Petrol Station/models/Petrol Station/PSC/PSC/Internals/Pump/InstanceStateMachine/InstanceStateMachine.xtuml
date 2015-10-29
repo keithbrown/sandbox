@@ -883,7 +883,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("c08da190-401a-44cc-8980-8be5a3dd5b22",
 	"e368ef59-43f3-4d5c-be06-570b9dc6f474",
-	1,
+	0,
 	'
 begin
   //# The pump is idle. Wait in this state until
@@ -901,7 +901,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("dd30a370-fb48-4423-a56a-bb8569df981a",
 	"e368ef59-43f3-4d5c-be06-570b9dc6f474",
-	1,
+	0,
 	'  supplying_tank : instance of TANK;
 
 begin
@@ -928,7 +928,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("6cc53326-9bc0-4d2c-834a-c10601dc8ee8",
 	"e368ef59-43f3-4d5c-be06-570b9dc6f474",
-	1,
+	0,
 	'
 begin
   //# Start pump motor and wait for the gun trigger to be depressed.
@@ -947,7 +947,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("bd1f56cd-d594-4061-92e1-c8fff99cbcf6",
 	"e368ef59-43f3-4d5c-be06-570b9dc6f474",
-	1,
+	0,
 	'
 begin
   //# Engage clutch which starts pumping.
@@ -967,7 +967,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("42ca4076-28eb-4f56-942d-c66848a527fa",
 	"e368ef59-43f3-4d5c-be06-570b9dc6f474",
-	1,
+	0,
 	'
 begin
   //# Delivery Now Complete, Stop motor and return pump
@@ -991,7 +991,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("4a426ab0-9c5d-4920-bb53-e13fb8d74c3a",
 	"e368ef59-43f3-4d5c-be06-570b9dc6f474",
-	1,
+	0,
 	'
 begin
   //# Disengage clutch which stops pumping.
@@ -1012,7 +1012,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("fd827e02-559d-45bd-a0f4-c1eac1c998c0",
 	"e368ef59-43f3-4d5c-be06-570b9dc6f474",
-	1,
+	0,
 	'
 begin
   //# Inform customer that the pump is unavailable.
