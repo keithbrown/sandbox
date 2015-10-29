@@ -1,0 +1,73 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("b7c66c93-e1c7-4ed7-8c7f-35cc67028bed",
+	'Fuel Grade',
+	4,
+	'FGR',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("f8eefceb-769b-4f73-8489-058252cbce96",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed");
+INSERT INTO O_BATTR
+	VALUES ("f8eefceb-769b-4f73-8489-058252cbce96",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed");
+INSERT INTO O_ATTR
+	VALUES ("f8eefceb-769b-4f73-8489-058252cbce96",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed",
+	"00000000-0000-0000-0000-000000000000",
+	'GradeName',
+	'',
+	'',
+	'GradeName',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("38296a4c-3ff3-4356-b4eb-4a1a7be58c16",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed");
+INSERT INTO O_BATTR
+	VALUES ("38296a4c-3ff3-4356-b4eb-4a1a7be58c16",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed");
+INSERT INTO O_ATTR
+	VALUES ("38296a4c-3ff3-4356-b4eb-4a1a7be58c16",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed",
+	"f8eefceb-769b-4f73-8489-058252cbce96",
+	'UnitPrice',
+	'',
+	'',
+	'UnitPrice',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000003",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed");
+INSERT INTO O_OIDA
+	VALUES ("f8eefceb-769b-4f73-8489-058252cbce96",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed",
+	0,
+	'GradeName');
+INSERT INTO O_ID
+	VALUES (1,
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed");
+INSERT INTO O_ID
+	VALUES (2,
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed");
+INSERT INTO PE_PE
+	VALUES ("b7c66c93-e1c7-4ed7-8c7f-35cc67028bed",
+	1,
+	"32a237af-570d-41bf-97c7-779af06f5269",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("32a237af-570d-41bf-97c7-779af06f5269",
+	"00000000-0000-0000-0000-000000000000",
+	"305a6e4c-7403-4b7d-85cb-37f107285e2a",
+	'Internals',
+	'',
+	0,
+	'../Internals.xtuml');

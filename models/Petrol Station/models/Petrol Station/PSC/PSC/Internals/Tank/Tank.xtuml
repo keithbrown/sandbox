@@ -1,0 +1,196 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	'Tank',
+	2,
+	'TNK',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("d74d33b5-9f38-4fa9-9dd1-c49a34f0affa",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_BATTR
+	VALUES ("d74d33b5-9f38-4fa9-9dd1-c49a34f0affa",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_ATTR
+	VALUES ("d74d33b5-9f38-4fa9-9dd1-c49a34f0affa",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"00000000-0000-0000-0000-000000000000",
+	'TankNumber',
+	'',
+	'',
+	'TankNumber',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed",
+	0,
+	"f8eefceb-769b-4f73-8489-058252cbce96",
+	"c14ea60c-f48a-451e-9c8c-005024d9b887",
+	"a6d0c659-1b44-4f42-94c0-1ab723a350ed",
+	"033e7a39-fac0-451c-9426-e62b7b644c6e",
+	"8633f074-3b58-4b1b-b313-19c7eec78e98",
+	"922c9350-d27c-4bdf-aedc-34634ce7df7f",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Fuel Grade',
+	'GradeName',
+	'R2.''stores''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"c14ea60c-f48a-451e-9c8c-005024d9b887",
+	"a6d0c659-1b44-4f42-94c0-1ab723a350ed",
+	'../Internals.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("f8eefceb-769b-4f73-8489-058252cbce96",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed",
+	0,
+	"c14ea60c-f48a-451e-9c8c-005024d9b887",
+	"033e7a39-fac0-451c-9426-e62b7b644c6e",
+	'../Internals.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("8633f074-3b58-4b1b-b313-19c7eec78e98",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"f8eefceb-769b-4f73-8489-058252cbce96",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed",
+	1,
+	'GradeName');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("f8eefceb-769b-4f73-8489-058252cbce96",
+	"b7c66c93-e1c7-4ed7-8c7f-35cc67028bed",
+	'../Fuel Grade/Fuel Grade.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("8633f074-3b58-4b1b-b313-19c7eec78e98",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"d74d33b5-9f38-4fa9-9dd1-c49a34f0affa",
+	'GradeName',
+	'',
+	'',
+	'GradeName',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("e6b1c169-d722-4ed3-8b62-cfa22b402d25",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_BATTR
+	VALUES ("e6b1c169-d722-4ed3-8b62-cfa22b402d25",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_ATTR
+	VALUES ("e6b1c169-d722-4ed3-8b62-cfa22b402d25",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"8633f074-3b58-4b1b-b313-19c7eec78e98",
+	'TankEmptyFlag',
+	'',
+	'',
+	'TankEmptyFlag',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000001",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("664cb2b5-5355-4848-98c8-460a48b183ac",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_BATTR
+	VALUES ("664cb2b5-5355-4848-98c8-460a48b183ac",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_ATTR
+	VALUES ("664cb2b5-5355-4848-98c8-460a48b183ac",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"e6b1c169-d722-4ed3-8b62-cfa22b402d25",
+	'TankLevel',
+	'',
+	'',
+	'TankLevel',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000003",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("15fa9b8a-f8c4-4b77-aff8-51a8bdc680a4",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_BATTR
+	VALUES ("15fa9b8a-f8c4-4b77-aff8-51a8bdc680a4",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_ATTR
+	VALUES ("15fa9b8a-f8c4-4b77-aff8-51a8bdc680a4",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"664cb2b5-5355-4848-98c8-460a48b183ac",
+	'TankCapacity',
+	'',
+	'',
+	'TankCapacity',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000003",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("c85ba765-a2eb-4a81-ad9c-d020da216b5b",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_BATTR
+	VALUES ("c85ba765-a2eb-4a81-ad9c-d020da216b5b",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_ATTR
+	VALUES ("c85ba765-a2eb-4a81-ad9c-d020da216b5b",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"15fa9b8a-f8c4-4b77-aff8-51a8bdc680a4",
+	'EmptyThreshold',
+	'',
+	'',
+	'EmptyThreshold',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000003",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("077484eb-8605-4b8e-84c3-88df54e3391c",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_BATTR
+	VALUES ("077484eb-8605-4b8e-84c3-88df54e3391c",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_ATTR
+	VALUES ("077484eb-8605-4b8e-84c3-88df54e3391c",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	"c85ba765-a2eb-4a81-ad9c-d020da216b5b",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000006",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_OIDA
+	VALUES ("d74d33b5-9f38-4fa9-9dd1-c49a34f0affa",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	0,
+	'TankNumber');
+INSERT INTO O_ID
+	VALUES (1,
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO O_ID
+	VALUES (2,
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO PE_PE
+	VALUES ("7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	1,
+	"32a237af-570d-41bf-97c7-779af06f5269",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("32a237af-570d-41bf-97c7-779af06f5269",
+	"00000000-0000-0000-0000-000000000000",
+	"305a6e4c-7403-4b7d-85cb-37f107285e2a",
+	'Internals',
+	'',
+	0,
+	'../Internals.xtuml');

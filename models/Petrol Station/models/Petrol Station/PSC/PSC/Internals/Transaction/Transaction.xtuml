@@ -1,0 +1,196 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("5570d71d-d59f-4fb7-a728-613ba494ec87",
+	'Transaction',
+	5,
+	'TRN',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("ddd0cfe0-8406-4c2d-a47b-14e0d37f9b64",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_BATTR
+	VALUES ("ddd0cfe0-8406-4c2d-a47b-14e0d37f9b64",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_ATTR
+	VALUES ("ddd0cfe0-8406-4c2d-a47b-14e0d37f9b64",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"00000000-0000-0000-0000-000000000000",
+	'TransactionNumber',
+	'',
+	'',
+	'TransactionNumber',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	0,
+	"714468d1-a58b-4920-932e-3c5d7f81c04d",
+	"3e087923-30ab-43d9-80c0-c022b52ca762",
+	"fffca449-db15-4a76-a2bc-b0c2689f3e05",
+	"3a35783b-8a93-48bf-b2e4-7294772cfa4f",
+	"1a0bbd3e-7017-4287-864f-875a5815b486",
+	"b1c16197-db39-4fae-8c75-21e9ea4ff215",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Pump',
+	'PumpNumber',
+	'R6.''records fuel delivery for''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"3e087923-30ab-43d9-80c0-c022b52ca762",
+	"fffca449-db15-4a76-a2bc-b0c2689f3e05",
+	'../Internals.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("714468d1-a58b-4920-932e-3c5d7f81c04d",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	0,
+	"3e087923-30ab-43d9-80c0-c022b52ca762",
+	"3a35783b-8a93-48bf-b2e4-7294772cfa4f",
+	'../Internals.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("1a0bbd3e-7017-4287-864f-875a5815b486",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"714468d1-a58b-4920-932e-3c5d7f81c04d",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	1,
+	'PumpNumber');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("714468d1-a58b-4920-932e-3c5d7f81c04d",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	'../Pump/Pump.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("1a0bbd3e-7017-4287-864f-875a5815b486",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"ddd0cfe0-8406-4c2d-a47b-14e0d37f9b64",
+	'PumpNumber',
+	'',
+	'',
+	'PumpNumber',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("d62edb72-921f-47df-9604-5c328f2be760",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_BATTR
+	VALUES ("d62edb72-921f-47df-9604-5c328f2be760",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_ATTR
+	VALUES ("d62edb72-921f-47df-9604-5c328f2be760",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"1a0bbd3e-7017-4287-864f-875a5815b486",
+	'TransactionType',
+	'',
+	'',
+	'TransactionType',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("97dadf2e-7788-4ab6-8dbe-deb76244570c",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_BATTR
+	VALUES ("97dadf2e-7788-4ab6-8dbe-deb76244570c",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_ATTR
+	VALUES ("97dadf2e-7788-4ab6-8dbe-deb76244570c",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"d62edb72-921f-47df-9604-5c328f2be760",
+	'Cost',
+	'',
+	'',
+	'Cost',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000003",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("be0b3b18-6683-413d-848a-23f83f4ceb25",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_BATTR
+	VALUES ("be0b3b18-6683-413d-848a-23f83f4ceb25",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_ATTR
+	VALUES ("be0b3b18-6683-413d-848a-23f83f4ceb25",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"97dadf2e-7788-4ab6-8dbe-deb76244570c",
+	'TransactionProcessTime',
+	'',
+	'',
+	'TransactionProcessTime',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000010",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("a671b851-90f6-4cd3-b50d-1ed2e88c0363",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_BATTR
+	VALUES ("a671b851-90f6-4cd3-b50d-1ed2e88c0363",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_ATTR
+	VALUES ("a671b851-90f6-4cd3-b50d-1ed2e88c0363",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"be0b3b18-6683-413d-848a-23f83f4ceb25",
+	'DeliveryStartTime',
+	'',
+	'',
+	'DeliveryStartTime',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000010",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("83c33123-3a92-4ae2-86df-c62d1aeebb87",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_BATTR
+	VALUES ("83c33123-3a92-4ae2-86df-c62d1aeebb87",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_ATTR
+	VALUES ("83c33123-3a92-4ae2-86df-c62d1aeebb87",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87",
+	"a671b851-90f6-4cd3-b50d-1ed2e88c0363",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000006",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_OIDA
+	VALUES ("ddd0cfe0-8406-4c2d-a47b-14e0d37f9b64",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87",
+	0,
+	'TransactionNumber');
+INSERT INTO O_ID
+	VALUES (1,
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO O_ID
+	VALUES (2,
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO PE_PE
+	VALUES ("5570d71d-d59f-4fb7-a728-613ba494ec87",
+	1,
+	"32a237af-570d-41bf-97c7-779af06f5269",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("32a237af-570d-41bf-97c7-779af06f5269",
+	"00000000-0000-0000-0000-000000000000",
+	"305a6e4c-7403-4b7d-85cb-37f107285e2a",
+	'Internals',
+	'',
+	0,
+	'../Internals.xtuml');

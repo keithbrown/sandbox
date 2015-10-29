@@ -1,0 +1,45 @@
+-- BP 7.1.6 content: InstanceStateMachine syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO SM_ISM
+	VALUES ("46730dbe-42f8-4a10-81a9-9e4c8b387eed",
+	"5570d71d-d59f-4fb7-a728-613ba494ec87");
+INSERT INTO SM_SM
+	VALUES ("46730dbe-42f8-4a10-81a9-9e4c8b387eed",
+	'',
+	0);
+INSERT INTO SM_MOORE
+	VALUES ("46730dbe-42f8-4a10-81a9-9e4c8b387eed");
+INSERT INTO GD_MD
+	VALUES ("07842b44-c90b-487d-a21f-f25fd73d4a8b",
+	8,
+	"46730dbe-42f8-4a10-81a9-9e4c8b387eed",
+	40,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'Petrol Station::PSC::PSC::Internals::Transaction::Instance State Machine');
+INSERT INTO DIM_DIA
+	VALUES ("07842b44-c90b-487d-a21f-f25fd73d4a8b",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_OBJ_PROXY
+	VALUES ("5570d71d-d59f-4fb7-a728-613ba494ec87",
+	'Transaction',
+	5,
+	'TRN',
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'../Transaction.xtuml');

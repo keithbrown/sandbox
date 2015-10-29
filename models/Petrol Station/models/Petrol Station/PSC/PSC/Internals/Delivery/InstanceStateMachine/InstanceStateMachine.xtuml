@@ -1,0 +1,45 @@
+-- BP 7.1.6 content: InstanceStateMachine syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO SM_ISM
+	VALUES ("295cea7a-e051-41d8-ba39-805dafe02168",
+	"46846150-4594-4e82-86c4-de041c4ba241");
+INSERT INTO SM_SM
+	VALUES ("295cea7a-e051-41d8-ba39-805dafe02168",
+	'',
+	0);
+INSERT INTO SM_MOORE
+	VALUES ("295cea7a-e051-41d8-ba39-805dafe02168");
+INSERT INTO GD_MD
+	VALUES ("1fc38a7b-f913-4253-b42e-6719e77b191b",
+	8,
+	"295cea7a-e051-41d8-ba39-805dafe02168",
+	40,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'Petrol Station::PSC::PSC::Internals::Delivery::Instance State Machine');
+INSERT INTO DIM_DIA
+	VALUES ("1fc38a7b-f913-4253-b42e-6719e77b191b",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_OBJ_PROXY
+	VALUES ("46846150-4594-4e82-86c4-de041c4ba241",
+	'Delivery',
+	3,
+	'DEL',
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'../Delivery.xtuml');

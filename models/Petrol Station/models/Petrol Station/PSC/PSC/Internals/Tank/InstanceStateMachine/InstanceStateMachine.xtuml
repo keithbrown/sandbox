@@ -1,0 +1,45 @@
+-- BP 7.1.6 content: InstanceStateMachine syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO SM_ISM
+	VALUES ("f943f854-3b09-4da0-a542-4881ec5d98d8",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76");
+INSERT INTO SM_SM
+	VALUES ("f943f854-3b09-4da0-a542-4881ec5d98d8",
+	'',
+	0);
+INSERT INTO SM_MOORE
+	VALUES ("f943f854-3b09-4da0-a542-4881ec5d98d8");
+INSERT INTO GD_MD
+	VALUES ("b7bb70ca-f456-4b44-8d01-30705d501b19",
+	8,
+	"f943f854-3b09-4da0-a542-4881ec5d98d8",
+	40,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'Petrol Station::PSC::PSC::Internals::Tank::Instance State Machine');
+INSERT INTO DIM_DIA
+	VALUES ("b7bb70ca-f456-4b44-8d01-30705d501b19",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_OBJ_PROXY
+	VALUES ("7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	'Tank',
+	2,
+	'TNK',
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'../Tank.xtuml');

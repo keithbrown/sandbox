@@ -1,0 +1,124 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	'Pump',
+	1,
+	'PMP',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("714468d1-a58b-4920-932e-3c5d7f81c04d",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9");
+INSERT INTO O_BATTR
+	VALUES ("714468d1-a58b-4920-932e-3c5d7f81c04d",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9");
+INSERT INTO O_ATTR
+	VALUES ("714468d1-a58b-4920-932e-3c5d7f81c04d",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	"00000000-0000-0000-0000-000000000000",
+	'PumpNumber',
+	'',
+	'',
+	'PumpNumber',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	0,
+	"d74d33b5-9f38-4fa9-9dd1-c49a34f0affa",
+	"ab71af6b-85e0-4013-90b2-ab26c392dfbe",
+	"ca51aefe-bc67-4d94-9670-2e36a44dfb02",
+	"888a7432-8184-47cd-9a2d-608f8ec1a0e7",
+	"0bf5d6f8-6d24-479a-90a5-66dbc7f38ac0",
+	"c9ab6ca4-5e25-4f9f-93b9-02a0609f90e4",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Tank',
+	'TankNumber',
+	'R1.''is pumping fuel from''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	"ab71af6b-85e0-4013-90b2-ab26c392dfbe",
+	"ca51aefe-bc67-4d94-9670-2e36a44dfb02",
+	'../Internals.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("d74d33b5-9f38-4fa9-9dd1-c49a34f0affa",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	0,
+	"ab71af6b-85e0-4013-90b2-ab26c392dfbe",
+	"888a7432-8184-47cd-9a2d-608f8ec1a0e7",
+	'../Internals.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("0bf5d6f8-6d24-479a-90a5-66dbc7f38ac0",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	"d74d33b5-9f38-4fa9-9dd1-c49a34f0affa",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	1,
+	'TankNumber');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("d74d33b5-9f38-4fa9-9dd1-c49a34f0affa",
+	"7c884e28-6941-4f19-aeb6-b2ad370c2a76",
+	'../Tank/Tank.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("0bf5d6f8-6d24-479a-90a5-66dbc7f38ac0",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	"714468d1-a58b-4920-932e-3c5d7f81c04d",
+	'TankNumber',
+	'',
+	'',
+	'TankNumber',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("0db015eb-037c-447c-bdbd-87cba77e41c4",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9");
+INSERT INTO O_BATTR
+	VALUES ("0db015eb-037c-447c-bdbd-87cba77e41c4",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9");
+INSERT INTO O_ATTR
+	VALUES ("0db015eb-037c-447c-bdbd-87cba77e41c4",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	"0bf5d6f8-6d24-479a-90a5-66dbc7f38ac0",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000006",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9");
+INSERT INTO O_OIDA
+	VALUES ("714468d1-a58b-4920-932e-3c5d7f81c04d",
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	0,
+	'PumpNumber');
+INSERT INTO O_ID
+	VALUES (1,
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9");
+INSERT INTO O_ID
+	VALUES (2,
+	"7a6d6558-b62e-4684-b2eb-02962c02d8e9");
+INSERT INTO PE_PE
+	VALUES ("7a6d6558-b62e-4684-b2eb-02962c02d8e9",
+	1,
+	"32a237af-570d-41bf-97c7-779af06f5269",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("32a237af-570d-41bf-97c7-779af06f5269",
+	"00000000-0000-0000-0000-000000000000",
+	"305a6e4c-7403-4b7d-85cb-37f107285e2a",
+	'Internals',
+	'',
+	0,
+	'../Internals.xtuml');
