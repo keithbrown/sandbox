@@ -1,0 +1,32 @@
+-- BP 7.1.6 content: SystemModel syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO S_SYS
+	VALUES ("bf9d4d33-1abc-4147-8d50-306b17d8dba5",
+	'func_move_test',
+	1);
+INSERT INTO GD_MD
+	VALUES ("770004fb-ac3c-4e20-ac11-c8861cc79a76",
+	108,
+	"bf9d4d33-1abc-4147-8d50-306b17d8dba5",
+	92,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'func_move_test');
+INSERT INTO DIM_DIA
+	VALUES ("770004fb-ac3c-4e20-ac11-c8861cc79a76",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");

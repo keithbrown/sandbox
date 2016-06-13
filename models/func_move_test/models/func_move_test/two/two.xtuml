@@ -1,0 +1,61 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("f6ab407f-e9a4-47cf-817f-3f7e8a9cc00a",
+	"bf9d4d33-1abc-4147-8d50-306b17d8dba5",
+	"bf9d4d33-1abc-4147-8d50-306b17d8dba5",
+	'two',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("942bde1e-2144-4f2a-98e1-f0940cad3ce9",
+	112,
+	"f6ab407f-e9a4-47cf-817f-3f7e8a9cc00a",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'func_move_test::two');
+INSERT INTO DIM_DIA
+	VALUES ("942bde1e-2144-4f2a-98e1-f0940cad3ce9",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_SYNC
+	VALUES ("24a7274c-5a49-4766-96d0-24a32bcaf9f0",
+	"00000000-0000-0000-0000-000000000000",
+	'tgt_func',
+	'',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	3,
+	'');
+INSERT INTO PE_PE
+	VALUES ("24a7274c-5a49-4766-96d0-24a32bcaf9f0",
+	1,
+	"f6ab407f-e9a4-47cf-817f-3f7e8a9cc00a",
+	"00000000-0000-0000-0000-000000000000",
+	1);
+INSERT INTO PE_PE
+	VALUES ("f6ab407f-e9a4-47cf-817f-3f7e8a9cc00a",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("bf9d4d33-1abc-4147-8d50-306b17d8dba5",
+	'func_move_test',
+	1,
+	'../func_move_test.xtuml');
