@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <!--<extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="Stats Action Set"
+            visible="true"
+            id="ModelAccess.actionSet">
+         <menu
+               label="BridgePoint &amp;Statistics"
+               id="statsMenu">
+            <separator
+                  name="statsGroup">
+            </separator>
+         </menu>
+         <action
+               label="&amp;Model Statistics"
+               icon="icons/green-bp.gif"
+               class="modelAccess.actions.StatsAction"
+               tooltip="Compute BridgePoint model Statistics"
+               menubarPath="statsMenu/statsGroup"
+               toolbarPath="statsGroup"
+               id="modelAccess.actions.StatsAction">
+         </action>
+      </actionSet>
+   </extension>-->
+   
+      <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="org.xtuml.bp.modelaccess.example.stats"
+            objectClass="org.xtuml.bp.core.common.NonRootModelElement">
+         <action
+               class="modelAccess.actions.StatsAction"
+               enablesFor="1"
+               icon="icons/green-bp.gif"
+               id="org.xtuml.bp.modelaccess.example.statsAction"
+               label="Model Statistics"
+               tooltip="Compute BridgePoint model statistics"
+               menubarPath="org.xtuml.bp.utilities/org.xtuml.bp.utilities.separator">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
