@@ -23,9 +23,10 @@ Note that metamodel classes are named using the architectural substitution
 variable '$Cr{class.Name}_c', so armed with the metamodel, you can predict the 
 name of any java class you will need to access. Similarly, traversal is 
 performed by static methods of the general form:    
-<pre>
+```
 getMany<KeyLetter>sOnR<Association Number>(<starting point>)
-</pre>.    
+```
+
 Note that 'starting point' may be a java instance or array of the appropriate 
 type and 'KeyLetter' and 'Association Number' are obtained directly from the 
 BridgePoint metamodel documentation.   
@@ -45,9 +46,10 @@ of that for you.
  
 As another example, metamodel attributes are accessed using the methods of the 
 form:    
-<pre>
+```
 get<AttributeName>(); 
-</pre>
+```
+
 The return type being that specified as the data type of the attribute in the 
 metamodel.   
  
@@ -60,27 +62,26 @@ I'll be happy to follow up with additional examples as you require them. Also,
 I'd be delighted if you could share any cool plugins you develop with us and the
 rest of the BridgePoint user base.   
  
- 
 very best regards,   
  
 Your Mentor   
------------------------   
+===============================================================================   
 Hi Mentor,   
  
 Thank you so much for this information. I must say I'm really excited about 
 this. I have been playing around with it for a bit.    
  
 I can see there are six overloaded methods for each 
-getMany<KeyLetter>sOnR<Association Number>(). I think I have figured out how the
+```getMany<KeyLetter>sOnR<Association Number>()```. I think I have figured out how the
 second argument is intended to be used. Something like this would do the job:   
  
-<pre>
+```
 Package_c [] pkgs = Package_c.getManyEP_PKGsOnR1401(sysMdl, new ClassQueryInterface_c() {
     public boolean evaluate(Object obj) {
         return ((Package_c)obj).getName().contains("myPackage");
     }
 });
-</pre>
+```
  
 Is this how you do it? Anyway, I don't have a clue what the third boolean 
 argument is used for?   
@@ -100,7 +101,7 @@ hope we get the opportunity to share them with you.
 Best Regards,   
  
 Student   
---------------------------------------------------------------------------------   
+===============================================================================   
 Hi Student,    
  
 Wow, I'm impressed :) I thought you might pick it up quickly, but _that_ 
@@ -121,15 +122,15 @@ cool tools you build with this...
 very best regards,   
  
 Mentor   
---------------------------------------------------------------------------------   
+===============================================================================   
 Hi again Student,   
  
 The answer to your 'early launch' question is to add the following call in your 
 startup code anywhere before you need to access model data:   
 
-<pre> 
+``` 
 PersistenceManager.getDefaultInstance();
-</pre>
+```
 
 This will force BridgePoint to do the required initialization synchronously, so 
 you can go ahead and access the data immediately after this call. Sorry I 
